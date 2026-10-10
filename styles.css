@@ -1,14 +1,14 @@
 :root {
   color-scheme: light;
-  --ink: #202923;
-  --muted: #78817b;
-  --line: #e8ebe7;
-  --paper: rgba(255, 255, 255, .78);
-  --canvas: #fbfaf7;
-  --green: #2d9660;
-  --green-dark: #21764b;
-  --green-pale: #e8f4ec;
-  --coral: #df4a57;
+    --ink: #4a2c3a;
+  --muted: #9b7b8b;
+  --line: #f8e4ec;
+  --paper: rgba(255, 250, 253, .92);
+  --canvas: #fdf5f8;
+  --green: #d97a9c;
+  --green-dark: #a34e6e;
+  --green-pale: #fce9f0;
+  --coral: #e090a8;
   --amber: #d78a22;
   --blue: #367db5;
   --rainbow-red: #df4a57;
@@ -18,7 +18,7 @@
   --rainbow-blue: #367db5;
   --rainbow-indigo: #5a65b9;
   --rainbow-violet: #8b50a2;
-  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-family: 'Poppins', 'Quicksand', 'Segoe UI', sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
