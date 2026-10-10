@@ -245,8 +245,8 @@ function renderCatalog() {
   const products = [...data.products].sort((a, b) => a.name.localeCompare(b.name));
   document.querySelector('#catalog-table').innerHTML = products.length ? products.map((product) => {
     const lowStock = Number(product.stock) <= 5;
-    return `<tr><td><span class="catalog-thumb" aria-hidden="true">▦</span></td><td><div class="catalog-name"><strong>${escapeHtml(product.name)}</strong><small>${escapeHtml(product.sku)}</small></div></td><td>${escapeHtml(product.category)}</td><td>${rupiah(product.price)}</td><td><span class="stock-state ${lowStock ? 'low' : 'ok'}">${lowStock ? `Stok Menipis · ${Number(product.stock)}` : `${Number(product.stock)} unit`}</span></td><td><div class="action-group"><button class="table-action" data-product-edit="${escapeHtml(product.id)}">Edit</button><button class="table-action delete" data-product-delete="${escapeHtml(product.id)}">Hapus</button></div></td></tr>`;
-  }).join('') : emptyRow(6, 'Belum ada produk.');
+    return `<tr><td><div class="catalog-name"><strong>${escapeHtml(product.name)}</strong><small>${escapeHtml(product.sku)}</small></div></td><td>${escapeHtml(product.category)}</td><td>${rupiah(product.price)}</td><td><span class="stock-state ${lowStock ? 'low' : 'ok'}">${lowStock ? `Stok Menipis · ${Number(product.stock)}` : `${Number(product.stock)} unit`}</span></td><td><div class="action-group"><button class="table-action" data-product-edit="${escapeHtml(product.id)}">Edit</button><button class="table-action delete" data-product-delete="${escapeHtml(product.id)}">Hapus</button></div></td></tr>`;
+  }).join('') : emptyRow(5, 'Belum ada produk.');
 }
 
 function emptyRow(columns, text) { return `<tr><td class="empty-cell" colspan="${columns}">${text}</td></tr>`; }
