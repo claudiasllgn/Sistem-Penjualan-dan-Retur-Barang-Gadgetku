@@ -1,6 +1,6 @@
 ## 🔗 Demo Sistem
 
-**Link Live:** [Buka Sistem Gadgetku](https://claudiasllgn.github.io/Sistem-Penjualan-dan-Retur-Barang-Gadgetku/frontend/)
+**Link Live:** [Buka Sistem Gadgetku](https://claudiasllgn.github.io/Sistem-Penjualan-dan-Retur-Barang-Gadgetku/)
 
 ---
 # Gadgetku
