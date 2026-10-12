@@ -1,3 +1,8 @@
+## 🔗 Demo Sistem
+
+**Link Live:** [Buka Sistem Gadgetku](https://claudiasllgn.github.io/Sistem-Penjualan-dan-Retur-Barang-Gadgetku/frontend/)
+
+---
 # Gadgetku
 
 Aplikasi penjualan dan retur gadget sederhana tanpa library tambahan. Klik dua kali `frontend/index.html` untuk membuka aplikasi dan mengakses Supabase langsung dari browser, tanpa localhost, Node.js, atau Live Server. Browser perlu koneksi internet.
